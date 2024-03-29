@@ -1,0 +1,61 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+.nombre-usuario {
+  padding: 10px;
+  color: #333;
+}
+
+body {
+  margin: 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #292929, #000000);
+  overflow: hidden;
+}
+
+.menu li {
+  width: calc(100% / 13);
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
